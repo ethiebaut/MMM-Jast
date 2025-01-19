@@ -12,7 +12,6 @@
 }
 .jast-wrapper {
   overflow: hidden;
-  --size: 1.4rem;
   font-size: var(--size);
   line-height: calc(var(--size) * 1.44);
 }
@@ -90,4 +89,12 @@ span.jast-change-value:nth-child(3)::before {
 .MMM-Jast .jast-wrapper.table th,
 td {
   padding-right: 0.5em;
+}
+
+.module.MMM-Jast {
+  margin-bottom: 0px;
+}
+
+.jast-values-wrapper {
+  float: right;
 }
